@@ -174,9 +174,9 @@ The page will be referenced in the test suite that we will create next.
 ```
 
 
-### webapp/test/testsuite.qunit.js \(New\)
+### webapp/test/testsuite.qunit.?s \(New\)
 
-The `testsuite.qunit.js` file contains the configuration for our test suite.
+The `testsuite.qunit.?s` file contains the configuration for our test suite.
 Although it comes with a set of defaults, we recommend specifying the used QUnit version to prevent potential future updates from breaking our tests.
 Additionally, the `sap_horizon` theme is configured in the `ui5` section, where you can provide the UI5 runtime configuration.
 
